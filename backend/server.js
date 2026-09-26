@@ -12,9 +12,9 @@ app.use(express.static(path.join(__dirname, '../frontend')));
 // प्रॉडक्टचा हार्डकोडेड डेटा 
 const productInfo = {
     id: 101,
-    name: "Dhanashree Jaggery Powder",
+    name: "Dhanashree Jaggery Powedr Company",
     description: "100% Natural & Chemical-Free Organic Jaggery Powder.",
-    price: "₹150",
+    price: "₹200",
     weight: "1 kg",
     contact: "+91 84593 78198",
     website: "www.dhanshreejaggarypowedr.in"
