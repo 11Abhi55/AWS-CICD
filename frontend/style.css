@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    width: 320px;
+    text-align: center;
+}
+h2 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+.desc {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.details {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d35400;
+    margin-bottom: 20px;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+.contact, .website {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #444;
+}
