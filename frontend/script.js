@@ -1,7 +1,7 @@
 async function loadProductData() {
     try {
         // बॅकएंडकडून डेटा फेच करणे
-        const response = await fetch('http://localhost:3000/api/product');
+        const response = await fetch('http://16.171.13.152:3000/api/info');
         const data = await response.json();
         
         // HTML मध्ये डेटा अपडेट करणे
